@@ -1,0 +1,470 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: Calibri;
+	list-style: none;
+}
+.move 
+{
+	height: 20px;
+	width: 100%;
+	background-color: skyblue;
+}
+.move:hover
+{
+	cursor: pointer;
+}
+	/*navbar css starts here*/
+
+
+.navbar
+{
+	width: 100%;
+	height: 90px;
+	background-color: black;
+	position: fixed;
+	margin-top: -4px;
+}
+
+	/*navbar css ends here*/
+
+.logo
+{
+	width: 120px;
+	position: absolute;
+	left: 100px;
+	top: 15px; 
+}
+.image
+{
+	height: 55px;
+	width: 120px;
+}
+
+.menubar
+{
+	position: absolute;
+	width: 400px;
+	height: 50px;
+	text-align: center;
+	top: 4px;
+	left: 400px;
+}
+li a
+{
+	text-decoration: none !important;
+	list-style: none !important;
+	color: #ffffffeb !important;
+	letter-spacing: 1px !important;
+	display: flex !important;
+	font-size: 17px !important;
+	margin-top: 10px !important;
+	align-items: center !important;
+	float: left !important;
+	padding: 0px !important;
+	margin-left: 30px !important;
+}
+
+.btn
+{
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	margin-left: 1000px;
+	margin-top: -55px;
+}
+
+.search
+{
+	background-color: transparent;
+	padding: 5px;
+	width: 35px;
+	border: 1px solid #ffffffeb;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.fa-search
+{
+	margin-left: -10px;
+}
+
+i
+{
+	color: #ffffffeb;
+
+}
+
+select
+{
+	width: 70px;
+	border: 1px solid #ffffffeb;
+	background-color: black;
+	font-size: 17px;
+	color: #ffffffeb;
+	height: 28px;
+	margin-left: 10px;
+}
+
+	/*submenu starts here*/
+
+.head
+{
+	width: 100%;
+	height: 63px;
+	background-color: #ffffffeb;
+	border-bottom: 1px solid black;
+	margin-top: 86px;
+	position: fixed;
+	z-index: 1;
+}
+.submenu
+{
+	display: flex;
+	float: left;
+	list-style: none;
+	margin-top: -10px;
+	margin-left: 50px;
+}
+
+.items, .anc1
+{
+	text-decoration: none;
+	margin-top: 15px;
+	margin-left: 25px;
+	color: black;
+	font-family: Calibri;
+}
+
+.items, .anc2
+{
+	text-decoration: none;
+	margin-top: 15px;
+	margin-left: 25px;
+	color: black;
+	font-family: Calibri;
+}
+
+.items, .anc3
+{
+	text-decoration: none;
+	margin-top: 15px;
+	margin-left: 25px;
+	color: black;
+	font-family: Calibri;
+}
+
+.items, .anc4
+{
+	text-decoration: none;
+	margin-top: 15px;
+	margin-left: 25px;
+	color: black;
+	font-family: Calibri;
+}
+
+.items, .anc5
+{
+	text-decoration: none;
+	margin-top: 15px;
+	margin-left: 25px;
+	color: black;
+	font-family: Calibri;
+}
+
+.items, .anc6
+{
+	text-decoration: none;
+	margin-top: 15px;
+	margin-left: 25px;
+	color: black;
+	font-family: Calibri;
+}
+
+.fa
+{
+	margin-left: 8px;
+}
+
+.hot
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #28a745;
+	color: #ffffffeb;
+	padding: 5px;
+}
+
+
+.hot:hover
+{
+	background-color: #0A8C4B;
+	cursor: pointer;
+	font-family: Calibri;
+}
+
+.icons
+{
+	margin-left: 1000px;
+	margin-top: -25px;
+
+}
+
+.scoll
+{
+	width: 100%;
+	height: 400px;
+	background-color: #ffffffeb;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: -150px;
+	background-color: transparent;
+	visibility: hidden;
+}
+
+.scoll2
+{
+	width: 100%;
+	height: 400px;
+	background-color: #ffffffeb;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: -150px;
+	background-color: transparent;
+	display: flex;
+	visibility: hidden;
+}
+
+.scoll3
+{
+	width: 100%;
+	height: 400px;
+	background-color: #ffffffeb;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: -350px;
+	background-color: transparent;
+	display: flex;
+	visibility: hidden;
+}
+
+.scoll4
+{
+	width: 100%;
+	height: 400px;
+	background-color: #ffffffeb;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: -400px;
+	background-color: transparent;
+	display: flex;
+	visibility: hidden;
+}
+
+.scoll5
+{
+	width: 100%;
+	height: 400px;
+	background-color: #ffffffeb;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: -150px;
+	background-color: transparent;
+	display: flex;
+	visibility: hidden;
+}
+
+.scoll6
+{
+	width: 100%;
+	height: 400px;
+	background-color: #ffffffeb;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: -700px;
+	background-color: transparent;
+	display: flex;
+	visibility: hidden;
+}
+
+
+.head:hover  .submenu:hover .items:hover .anc1:hover  .scoll
+{
+	visibility: visible;	
+}
+
+.head:hover .submenu:hover .items:hover .anc2:hover  .scoll2
+{
+	visibility: visible;	
+}
+
+.head:hover .submenu:hover .items:hover .anc3:hover  .scoll3
+{
+	visibility: visible;	
+}
+
+.head:hover .submenu:hover .items:hover .anc4:hover  .scoll4
+{
+	visibility: visible;	
+}
+
+.head:hover .submenu:hover .items:hover .anc5:hover  .scoll5
+{
+	visibility: visible;	
+}
+
+.head:hover .submenu:hover .items:hover .anc6:hover  .scoll6
+{
+	visibility: visible;	
+}
+.col, .one
+{
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+.col2, .two
+{
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+.col3, .three
+{
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+.col4, .four
+{
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+.col5, .five
+{
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+.col6, .six
+{
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+.two1
+{
+	height: 150px;
+	width: 150px;
+	margin-left: 0px;
+	margin-top: 30px;
+}
+
+.two2
+{
+	margin-left: 75px;
+	height: 150px;
+	width: 150px;
+	margin-top: 35px;
+}
+
+.col1,.date
+{
+	height: 150px;
+	width: 150px;
+	margin-top: 15px;
+	margin-left: 290px;
+}
+
+.d1,.d2,.d3,.d4,.d5,.d6
+{
+	margin-left: 55px;
+	font-family: Calibri;
+	font-size: 18px;
+}
+
+.d7
+{
+	margin-left: 350px;
+	margin-top: -50px;
+	font-family: Calibri;
+	font-size: 18px;
+}
+
+.t1,.t2,.t3,.t4,.t5
+{
+	margin-left: 0px;
+	font-family: Calibri;
+	font-size: 18px;
+}
+
+.r1,.r2,.r3,.r4,.r5,.r6,.r7
+{
+	margin-left: 55px;
+	font-family: Calibri;
+	font-size: 18px;
+}
+
+.f1,.f2,.f3,.f4,.f5
+{
+	margin-left: 55px;
+	font-family: Calibri;
+	font-size: 18px;
+}
+.g1
+{
+	margin-left: 55px;
+	font-family: Calibri;
+	font-size: 18px;
+}
+
+.h1,.h2,.h3,.h4,.h5
+{
+	margin-left: 55px;
+	font-family: Calibri;
+	font-size: 18px;
+}
+	/*submenu ends here*/
+
+
+	/*Slider Starts Here*/
+
+.slider
+{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 150px;
+}
+.mySlides
+{
+	display: none;
+}
+img
+{
+	width: 1500px;
+	height: 380px;
+}
+
+
+
+	/*Slider Ends Here*/
